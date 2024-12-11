@@ -1,13 +1,13 @@
 /* General spacing for all screen sizes */
 .nav-link, .btn {
-  font-size: 1.2rem; /* Increase font size */
+   /* Increase font size */
   font-family: "Edu AU VIC WA NT Hand", cursive; /* Change font style */
 }
 .nav-item:not(:last-child) {
   margin-right: 2.4rem; /* Space between nav items font-family: "WindSong", cursive; font-family: "Allura", cursive;*/
 }
 .navbar-brand{
-  font-size: 1.5rem;
+  
   color: black;
   font-family: "Sofia", cursive; 
   margin-left: 25px;      
@@ -27,42 +27,32 @@
 
 .overlay-content {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 2%; /* Adjust the left position as needed */
   transform: translateY(-50%);
-  max-width: 550px; /* Limits the width of the content */
+  max-width: 550px; /* Limits the width of the content */  
 }
 
-.overlay-content h2 {
-  font-size: 3.5rem;
+.overlay-content h2 {  
   margin-bottom: 1rem;
-  font-family: "Crimson Pro", serif;
-  
+  font-family: "Crimson Pro", serif;  
 }
 
-.overlay-content p {
-  font-size: 1.5rem;
-  font-family: "Josefin Slab", serif;
-  
+.overlay-content p {  
+  font-family: "Josefin Slab", serif;  
 }
 
 .new{
   margin-top: 100vh; /* Pushes the section below the viewport height */
   text-align: center;
-  padding:0%;
+  padding-top:5%;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
 }
 
 .new img {
   width: 50%;
-  height: 40%;
-  
-}
-
-.new h1{
-  margin-top: -2%;
-  font-family: "Cooper Black";
-  font-size: 65px;
-  color: #ffff4d;  
+  height: 40%;  
 }
 
 .new h2{
@@ -73,79 +63,54 @@
   text-align: center;
 }
 .new p{
-  font-family: "Josefin Slab", serif;
-  font-size: 16pt;    
+  font-family: "Josefin Slab", serif;     
+}
+.custom-section{  
+  padding-top: 5%;
+  text-align: center;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
 }
 
-.custom-section h1{
-  font-family: "Cooper Black";
-  font-size: 75px;
-  color: #ff6b00;
-  margin-top: -5%;
-  padding-left: 80%;  
-}
-.custom-card{
-  margin-top: 25%;
-}
-.custom-card h5{
+.custom-section h5{
   font-family: "Edu AU VIC WA NT Hand", cursive;
-  font-size: 36px;
+  /*font-size: 36px;*/
 }
 
-.custom-card p{
+.custom-section p{
   font-family: "Josefin Slab", serif;
-  font-size: 16pt; 
+   /*font-size: 16pt; */
 }
-
-
-.custom-img img{
-  margin-top: 5%;
-  border: none;
-  width: 100%;
-  height: 100%;
-}
-
 .caption h5{
-  margin-top: 8%;
+  margin-top: 5%;
+  text-align: center;
   font-family: "Edu AU VIC WA NT Hand", cursive;
-  font-size: 30pt; 
-}
-
-.custom-about h1{
-  margin-top: 0%;
-  font-family: "Cooper Black";
-  font-size: 65px;
-  color: #ffff4d;
-  padding-left: 8%;
   
 }
-.custom-abt-img img{
-  border: none;
-  width: 100%;
-  height: 100%;
-  margin-top: 5%;
+.custom-about{
+  padding-top: 10%;   
+  font-family: "Sofia", cursive;  
+  text-align: justify;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
 }
 
-.about p{
-  font-family: "Sofia", cursive; 
-  font-size: 16pt;
-  margin-top: 25%;
-  text-align:left;
+hr{
+  border: 0;
+  height: 15px; /* Set the thickness of the hr line */
+  width: 1000px;
+  background-color:#ffc107; /* Match the color of the h1 text */
+  margin-left: 15%; /* Align with the padding of h1 */
+  margin-top: 0%; /* Match the top margin of h1 */
+  margin-bottom: 5%; /* Adjust spacing below */
+  border-radius: 50%;
+
+  
 }
 
-.footer{
-  margin-top: -3%;
-  font-family: "Cooper Black";
-  font-size: 120px;
-  color: #ff6b00;
-  text-align: center;
-  border-radius: 20%;
-  width: 100%;
-}
 .copyright{
   margin-top: -3%;
-  font-family: 'Times New Roman', Times, serif;
-  color: black;
+  font-family: 'Times New Roman', Times, serif;  
   text-align: right;
   margin-bottom: 0.5%;
 }
@@ -165,3 +130,6 @@
   transition: opacity 0.1s; /* Smooth transition for opacity */
 }
 
+.form-content{
+  font-family: "Sofia", cursive;   
+}

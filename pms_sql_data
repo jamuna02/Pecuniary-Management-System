@@ -1,0 +1,62 @@
+// users
+
+INSERT INTO public.users (
+    id, username, email, mobile, password
+) VALUES (
+    '873e7444-e04a-4098-b76a-f4fd387764cc', 
+    'user', 
+    'user@gmail.com', 
+    '6384432402', 
+    'user@123'
+);
+
+
+
+
+
+
+
+
+//transactions
+
+INSERT INTO public.transactions (
+    id, user_id, party_name, bill_number, date, type_, category, total_amount, amount_paid_received, balance
+) VALUES
+(1, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Sri Krishna Tex', 1, '2023-07-22', 'Credit', 'Sales', 49140.00, 23000.00, 26140.00),
+(2, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Sri Krishna Tex', 2, '2023-07-24', 'Credit', 'Sales', 49140.00, 6000.00, 43140.00),
+(3, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Sri Krishna Tex', 3, '2023-07-25', 'Credit', 'Sales', 49140.00, 10000.00, 39140.00),
+(5, '873e7444-e04a-4098-b76a-f4fd387764cc', 'N.A.B Hand Loom Textiles', 1, '2023-07-29', 'Debit', 'Purchase', 24570.00, 5000.00, 19570.00),
+(8, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Neenus Inpex Ltd', 10, '2023-07-31', 'Credit', 'Sales', 294057.00, 63000.00, 231057.00),
+(4, '873e7444-e04a-4098-b76a-f4fd387764cc', 'C.P.Sons Textiles', 4, '2023-07-25', 'Credit', 'Sales', 25200.00, 5000.00, 20200.00),
+(10, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Sri Krishna Tex', 6, '2023-07-26', 'Credit', 'Sales', 38325.00, 0.00, 38325.00),
+(9, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Sri Krishna Tex', 5, '2023-07-26', 'Credit', 'Sales', 38325.00, 10000.00, 28325.00),
+(11, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Neenus Inpex Ltd', 7, '2023-07-27', 'Credit', 'Sales', 76650.00, 30000.00, 46650.00),
+(12, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Veenus Fashion', 8, '2023-07-27', 'Credit', 'Sales', 176450.00, 45000.00, 131450.00),
+(13, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Erode Handloom', 9, '2023-07-29', 'Credit', 'Sales', 45990.00, 5000.00, 40990.00),
+(6, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Yadhu"s', 2, '2023-08-02', 'Debit', 'Purchase', 46620.00, 20000.00, 26620.00),
+(7, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Calicut Fashion', 3, '2023-08-04', 'Debit', 'Purchase', 45990.00, 20000.00, 25990.00),
+(15, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Cotton Fashion', 4, '2023-08-11', 'Debit', 'Purchase', 882553.00, 200000.00, 682553.00),
+(16, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Neenus Inpex Ltd', 12, '2023-08-02', 'Credit', 'Sales', 1082000.00, 200000.00, 882000.00),
+(17, '873e7444-e04a-4098-b76a-f4fd387764cc', 'C.P.Sons Textiles', 13, '2023-08-07', 'Credit', 'Sales', 382729.00, 100000.00, 282729.00),
+(14, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Neenus Inpex Ltd', 11, '2023-08-02', 'Credit', 'Sales', 2092955.00, 500000.00, 1592955.00),
+(18, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Sri Krishna Tex', 14, '2023-08-10', 'Credit', 'Sales', 280740.00, 50000.00, 230740.00),
+(19, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Mothi', 5, '2023-08-14', 'Debit', 'Purchase', 58400.00, 20000.00, 38400.00),
+(20, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Bhars Tex', 6, '2023-08-23', 'Debit', 'Purchase', 87110.00, 30000.00, 57110.00),
+(21, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Classic Exports', 15, '2023-08-17', 'Credit', 'Sales', 1126000.00, 300000.00, 826000.00),
+(22, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Classic Exports', 16, '2023-08-18', 'Credit', 'Sales', 500000.00, 80000.00, 420000.00),
+(23, '873e7444-e04a-4098-b76a-f4fd387764cc', 'N.A.B Hand Loom Textiles', 7, '2023-08-23', 'Debit', 'Purchase', 187000.00, 30000.00, 157000.00),
+(24, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Calicut Fashion', 8, '2023-08-23', 'Debit', 'Purchase', 45045.00, 20000.00, 25045.00),
+(25, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Super Tex', 17, '2023-09-04', 'Credit', 'Sales', 15750.00, 0.00, 15750.00),
+(26, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Jai Susintara', 18, '2023-09-08', 'Credit', 'Sales', 107100.00, 40000.00, 67100.00),
+(27, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Neenus Inpex Ltd', 19, '2023-09-11', 'Credit', 'Sales', 425779.00, 230000.00, 195779.00),
+(28, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Classic Exports', 20, '2023-09-13', 'Credit', 'Sales', 42000.00, 20000.00, 22000.00),
+(29, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Sri Krishna Tex', 21, '2023-09-15', 'Credit', 'Sales', 96390.00, 43000.00, 53390.00),
+(30, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Sri Krishna Tex', 22, '2023-09-18', 'Credit', 'Sales', 48195.00, 33000.00, 15195.00),
+(31, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Index Universe', 9, '2023-08-28', 'Debit', 'Purchase', 44100.00, 0.00, 44100.00),
+(32, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Index Universe', 10, '2023-09-01', 'Debit', 'Purchase', 205800.00, 50000.00, 155800.00),
+(33, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Sri Krishna Tex', 23, '2023-09-20', 'Credit', 'Sales', 69825.00, 0.00, 69825.00),
+(34, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Jai Susintara', 24, '2023-09-21', 'Credit', 'Sales', 81113.00, 32600.00, 48513.00),
+(35, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Index Universe', 11, '2023-09-08', 'Debit', 'Purchase', 81113.00, 25022.00, 56091.00),
+(36, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Cotton Fashion', 12, '2023-09-20', 'Debit', 'Purchase', 105299.00, 30000.00, 75299.00),
+(37, '873e7444-e04a-4098-b76a-f4fd387764cc', 'Erode Handloom', 25, '2023-09-27', 'Credit', 'Sales', 110000.00, 50000.00, 60000.00),
+(38, '873e7444-e04a-4098-b76a-f4fd387764cc', 'C.P.Sons Textiles', 26, '2023-09-29', 'Credit', 'Sales', 210399.00, 70000.00, 140399.00);

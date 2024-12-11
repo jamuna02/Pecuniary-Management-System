@@ -1,0 +1,206 @@
+.nav {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: large;
+    display: block;
+    padding: 5px 5px;
+    margin-left: -12%;
+}
+
+.sidebar .nav-link.active {
+    color:beige; /* Text color for active state */    
+    font-weight: bold; /* Optional: Make text bold */
+}
+/* Custom CSS for the cards */
+.dash-card .card {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    
+}
+
+.dash-card .card-body {
+    padding: 1.25rem;   
+}
+
+.dash-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.dash-card .card-text {
+    font-size: 1.125rem;
+}
+
+.report-card .card-title{
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.report-card .card-text {
+    font-size: 1.125rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Chart styling */
+#cashFlowChart {        
+    max-height: 250px; /* Adjust the height as needed */
+}
+#bubbleChart {
+    width: 100% ;   
+}
+#expenseChart{
+    max-height: 370px;
+}
+#searchAmountChart {  
+
+    max-height: 350px; /* Adjust the height as needed */
+    height: 350px;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1rem;
+    }
+}
+
+
+.btn {
+    font-family: "Sofia", cursive;  
+}
+
+/* Custom styles */
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.sidebars {
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar a {
+    text-decoration: none;
+    padding: 13px 25px;
+    display: block;
+}
+
+.sidebar a i {
+    margin-right: 10px;
+}
+
+.dash-menu {
+    margin-top: 12%;
+    font-family: "Sofia", cursive;
+    font-size: larger;
+    flex-grow: 1;
+}
+
+.main-content {
+    padding: 20px;
+    height: 100vh;
+    overflow-y: auto;
+    padding-top: 36px; /* Adjust as needed to fit the navbar height */
+
+}
+
+.overview-btn {
+    display: inline-block; /* Change from block to inline-block */
+    margin-top: 50px;       
+    border-radius: 0.25rem;
+    font-size: 1rem;    
+}
+
+.profile {
+    font-family: "Crimson Pro", serif;
+    font-size: larger;
+}
+
+/* Fixed Navbar Styles */
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 256px; /* Position the navbar considering the sidebar width */
+    right: 0;
+    z-index: 1030; /* Ensure it is above other content */
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    max-width: calc(100% - 256px); /* Aligns with the width of the main content */
+    overflow: visible; /* Allow dropdown to be visible */
+}
+
+/* Dropdown Menu Styles */
+.dropdown-menu {
+    display: none; /* Ensure dropdown is hidden by default */
+    margin-top: 0.5rem; /* Adjust if needed for spacing below the profile */
+    min-width: 100px; /* Adjust width as needed */
+    position: absolute; /* Position dropdown relative to the parent */
+    z-index: 1050; /* Higher than other z-index values */
+}
+
+.dropdown-menu.show {
+    display: block; /* Show dropdown when 'show' class is added by Bootstrap */
+}
+
+/* Align dropdown menu to the right */
+.dropdown-menu-end {
+    right: 0;
+    left: auto;
+}
+/* Styling for hover effect */
+.dropdown-item:hover {
+    background-color: #f8f9fa; /* Light background on hover */
+}
+
+
+form{
+    font-family: "Crimson Pro", serif;     
+}
+
+.table-responsive {
+    margin-top: 50px;    
+}
+
+.table-striped tbody tr:hover {
+    background-color: #f1f1f1;
+    
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+    font-family: "Josefin Slab", serif;
+}
+
+.table-action-buttons .btn {
+    margin-right: 5px;
+}
+
+@media (max-width: 767px) {
+    .sidebars {
+        padding: 10px;
+    }
+
+    .main-content {
+        padding: 15px;
+    }
+}
+
+.credit, .debit, .expense, .report{
+    margin-top: 4%;
+    font-family: "Sofia", cursive;
+}
+
+
+
+#chartFilter{
+    display: block;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: 0;
+    border-radius: 0.50rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
